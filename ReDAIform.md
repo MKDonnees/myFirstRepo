@@ -1,60 +1,51 @@
-ReDAI (Research Data for AI) - Information Capture Sheet
+# ReDAI (Research Data for AI) - Information Capture Sheet
 
-# About
+## About
+| Question    | Response |
+| -------- | ------- |
+| Information provided by (project member): | |
+| Information collected by (ARC member): | |
+| Date of information collection: | |
 
-Information provided by (project member):
+## Project background
+| Question    | Response |
+| -------- | ------- |
+| Project Title | |
+| Principal Investigator and any other key contacts (name, department, email address, etc) | |
+| External funder(s) (if any)[[1]](#endnote-1) | |
+| Project partners | |
+| Short summary of research purpose | |
+| Will you be creating/capturing original data, or reusing existing data?[[4]](#endnote-4) | |
+| Describe the AI component of the research[[2]](#endnote-2) | |
+| Does the research require High Performance Computing?[[3]](#endnote-3) | |
 
-Information collected by (ARC member):
+## About the data
 
-Date of information collection:
+(N.B. If you are creating/using multiple datasets, just add another column to this table)
 
-# Project background
+| Question    | Dataset 1 |
+| -------- | ------- |
+| Short title of dataset  |     |
+| Describe the data collection (or access) process, e.g. for reusing third-party data. For example, will data sharing agreements be in place? |     |
+| Will the data be sensitive (ethically, commercially or for security reasons)?[[5]](#endnote-5) [[6]](#endnote-6) |     |
+| If yes, what protective measures will be put in place? (participant consent, anonymisation, encryption, access controls, etc) |     |
+| What data/file formats will be used?  |     |
+| What is the scale of data volume? (MB/GB/TB/PB) |     |
+| Does your data comprise large files (>4GB) or many small files, or a mixture? |     |
+| Where will the data be stored during the project? |     |
+| How will it be protected/backed-up? |     |
+| Who will be responsible for data documentation/creating metadata? [[7]](#endnote-7) |     |
 
-Project Title
+## After the project
 
-Principal Investigator and any other key contacts (name, department, email address, etc)
+| Question    | Response |
+| -------- | ------- |
+| What data will you want to keep for the longer-term? (types, volumes, etc)[[8]](#endnote-8) | |
+| Where will it be stored? | |
+| How will longer-term storage be resourced? | |
+| What additional materials (code, models, etc) must be kept in order to support longer-term reproducibility? Where will they be stored?[[9]](#endnote-9) | |
 
-External funder(s) (if any)[[1]](#endnote-1)
-
-Project partners
-
-Short summary of research purpose
-
-Describe the AI component of the research[[2]](#endnote-2)
-
-Does the research require High Performance Computing?[[3]](#endnote-3)
-
-# About the data (table)
-
-Will you be creating/capturing original data, or reusing existing data?[[4]](#endnote-4)
-
-Describe the data collection (or access) process, e.g. for reusing third-party data. For example, will data sharing agreements be in place?
-
-Will the data be sensitive (ethically, commercially or for security reasons)?[[5]](#endnote-5) [[6]](#endnote-6)
-
-If yes, what protective measures will be put in place? (participant consent, anonymisation, encryption, access controls, etc)
-
-What data formats will be used?
-
-What is the scale of data volume? (MB/GB/TB/PB)
-
-Does your data comprise large files (>4GB) or many small files, or a mixture?
-
-Where will the data be stored during the project?
-
-How will it be protected/backed-up?
-
-Who will be responsible for data documentation/creating metadata? [[7]](#endnote-7)
-
-# After the project
-
-What data will you want to keep for the longer-term? (types, volumes, etc)[[8]](#endnote-8)
-
-Where will it be stored?
-
-How will longer-term storage be resourced?
-
-What additional materials (code, models, etc) must be kept in order to support longer-term reproducibility? Where will they be stored?[[9]](#endnote-9)
+### Endnotes
 
 1. Does the external funder have a research data policy, or is a data access agreement or plan in place/required? If a data management plan is required, create one using [DMPonline](https://dmponline.dcc.ac.uk/). [↑](#endnote-ref-1)
 2. You should consider issues around Effectiveness, Fairness and Transparency here. See the ReDAI (Research Data for AI) service page and the Unified AI documentation – links to follow. [↑](#endnote-ref-2)
