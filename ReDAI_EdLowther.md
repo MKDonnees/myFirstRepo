@@ -25,7 +25,7 @@
 
 | Question    | Dataset 1 |
 | -------- | ------- |
-| Short title of dataset  |  Alzeye. Ed may need to access BioBank dataset later, can exptent this table to record info around that as and when. |
+| Short title of dataset  |  Alzeye. Ed may need to access BioBank dataset later, can exptent this table to record info around that as and when. For more info on this dataset see https://bmjopen.bmj.com/content/12/3/e058552 |
 | Describe the data collection (or access) process, e.g. for reusing third-party data. For example, will data sharing agreements be in place? |  Not an open dataset - data sharing agreements between NHS digital, Moorfields and UCl. Ed had to join the Alzeye team in order to access dataset. Honorary contract with Moorfields. |
 | Will the data be sensitive (ethically, commercially or for security reasons)?[[5]](#endnote-5) [[6]](#endnote-6) | Anonymised, non-sensitive - but access is restricted. |
 | If yes, what protective measures will be put in place? (participant consent, anonymisation, encryption, access controls, etc) |  Access is controlled via SSH to HPC resource.  |
@@ -46,7 +46,9 @@
 | What additional materials (code, models, etc) must be kept in order to support longer-term reproducibility? Where will they be stored?[[9]](#endnote-9) | AI model will be shared if it works! Likely to be shared via HuggingFace unless anything major changes in the meantime. |
 
 Any other notes?
-- MD: need to separate training data from output data/results, and consider model more equitably. 
+- Add an any other comments field (MD)
+- Need to separate training data from output data/results, and consider model more equitably. (MD)
+- Is there an easy way to spellcheck GitHub pages? (MD)
 
 ### Endnotes
 
