@@ -27,23 +27,26 @@
 | -------- | ------- |
 | Short title of dataset  |  Alzeye. Ed may need to access BioBank dataset later, can exptent this table to record info around that as and when. |
 | Describe the data collection (or access) process, e.g. for reusing third-party data. For example, will data sharing agreements be in place? |  Not an open dataset - data sharing agreements between NHS digital, Moorfields and UCl. Ed had to join the Alzeye team in order to access dataset. Honorary contract with Moorfields. |
-| Will the data be sensitive (ethically, commercially or for security reasons)?[[5]](#endnote-5) [[6]](#endnote-6) |  Anonymised, non-sensitive |
-| If yes, what protective measures will be put in place? (participant consent, anonymisation, encryption, access controls, etc) |  N/A  |
+| Will the data be sensitive (ethically, commercially or for security reasons)?[[5]](#endnote-5) [[6]](#endnote-6) | Anonymised, non-sensitive - but access is restricted. |
+| If yes, what protective measures will be put in place? (participant consent, anonymisation, encryption, access controls, etc) |  Access is controlled via SSH to HPC resource.  |
 | What data/file formats will be used?  |  Multiple data sets, inc. Image data. ECT scans of eyes. 3D arrays. 2D images. Tabular data/metadata, dates of appointment etc. |
-| What is the scale of data volume? (MB/GB/TB/PB) |     |
-| Does your data comprise large files (>4GB) or many small files, or a mixture? |     |
-| Where will the data be stored during the project? |     |
-| How will it be protected/backed-up? |     |
-| Who will be responsible for data documentation/creating metadata? [[7]](#endnote-7) |     |
+| What is the scale of data volume? (MB/GB/TB/PB) | Full dataset is 18 TB approx. Ed currently only interested in a subset of this, but interest may widen in time!  |
+| Does your data comprise large files (>4GB) or many small files, or a mixture? |  Image files can be gigabyte scale. Tabular data much smaller. Small number of lareg files, large number of small-to-medium files.   |
+| Where will the data be stored during the project? |  UCL Computing Science cluster. On premises.  |
+| How will it be protected/backed-up? | Backed up by in-house team.  |
+| Who will be responsible for data documentation/creating metadata? [[7]](#endnote-7) |  Metadata created by original research team (Alzeye)   |
 
 ## After the project
 
 | Question    | Response |
 | -------- | ------- |
-| What data will you want to keep for the longer-term? (types, volumes, etc)[[8]](#endnote-8) | |
-| Where will it be stored? | |
-| How will longer-term storage be resourced? | |
-| What additional materials (code, models, etc) must be kept in order to support longer-term reproducibility? Where will they be stored?[[9]](#endnote-9) | |
+| What data will you want to keep for the longer-term? (types, volumes, etc)[[8]](#endnote-8) | Not yet known! Results/evidence. |
+| Where will it be stored? | Where it already is. |
+| How will longer-term storage be resourced? | Not known - dealt with by CS colleagues. |
+| What additional materials (code, models, etc) must be kept in order to support longer-term reproducibility? Where will they be stored?[[9]](#endnote-9) | AI model will be shared if it works! Likely to be shared via HuggingFace unless anything major changes in the meantime. |
+
+Any other notes?
+- MD: need to separate training data from output data/results, and consider model more equitably. 
 
 ### Endnotes
 
