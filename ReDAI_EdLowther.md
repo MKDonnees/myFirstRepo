@@ -3,21 +3,21 @@
 ## About
 | Question    | Response |
 | -------- | ------- |
-| Information provided by (project member): | |
-| Information collected by (ARC member): | |
-| Date of information collection: | |
+| Information provided by (project member): | Ed Lowther, PhD candidate |
+| Information collected by (ARC member): | Martin Donnelly |
+| Date of information collection: | 21 May 2025 |
 
 ## Project background
 | Question    | Response |
 | -------- | ------- |
-| Project Title | |
-| Principal Investigator and any other key contacts (name, department, email address, etc) | |
+| Project Title | PhD - a new method of time-series analysis for different types of data (multi-modal) |
+| Principal Investigator and any other key contacts (name, department, email address, etc) | Ed Lowther |
 | External funder(s) (if any)[[1]](#endnote-1) | |
-| Project partners | |
-| Short summary of research purpose | |
-| Will you be creating/capturing original data, or reusing existing data?[[4]](#endnote-4) | |
-| Describe the AI component of the research[[2]](#endnote-2) | |
-| Does the research require High Performance Computing?[[3]](#endnote-3) | |
+| Project partners | Moorfields Eye Hospital, UCL Opthalmology |
+| Short summary of research purpose | Anticipating likely clinical outcomes for glaucoma patients. Glaucoma is a degeneratibve condition. Not known why some patients deteriorate more quickly than others. |
+| Will you be creating/capturing original data, or reusing existing data?[[4]](#endnote-4) | Reusing existing anonymised/depersonalised datasets |
+| Describe the AI component of the research[[2]](#endnote-2) | Training a machine-learning model, learning lots of parameters |
+| Does the research require High Performance Computing?[[3]](#endnote-3) | Not currently able to use ARC infrasructure. Data currently stored on UCL's computing science cluster. Potential to utilise ARC's TRE.|
 
 ## About the data
 
@@ -25,11 +25,11 @@
 
 | Question    | Dataset 1 |
 | -------- | ------- |
-| Short title of dataset  |     |
-| Describe the data collection (or access) process, e.g. for reusing third-party data. For example, will data sharing agreements be in place? |     |
-| Will the data be sensitive (ethically, commercially or for security reasons)?[[5]](#endnote-5) [[6]](#endnote-6) |     |
-| If yes, what protective measures will be put in place? (participant consent, anonymisation, encryption, access controls, etc) |     |
-| What data/file formats will be used?  |     |
+| Short title of dataset  |  Alzeye. Ed may need to access BioBank dataset later, can exptent this table to record info around that as and when. |
+| Describe the data collection (or access) process, e.g. for reusing third-party data. For example, will data sharing agreements be in place? |  Not an open dataset - data sharing agreements between NHS digital, Moorfields and UCl. Ed had to join the Alzeye team in order to access dataset. Honorary contract with Moorfields. |
+| Will the data be sensitive (ethically, commercially or for security reasons)?[[5]](#endnote-5) [[6]](#endnote-6) |  Anonymised, non-sensitive |
+| If yes, what protective measures will be put in place? (participant consent, anonymisation, encryption, access controls, etc) |  N/A  |
+| What data/file formats will be used?  |  Multiple data sets, inc. Image data. ECT scans of eyes. 3D arrays. 2D images. Tabular data/metadata, dates of appointment etc. |
 | What is the scale of data volume? (MB/GB/TB/PB) |     |
 | Does your data comprise large files (>4GB) or many small files, or a mixture? |     |
 | Where will the data be stored during the project? |     |
