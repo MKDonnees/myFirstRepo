@@ -50,6 +50,7 @@ Any other notes?
 - Need to separate training data from output data/results, and consider model more equitably. (MD)
 - Is there an easy way to spellcheck GitHub pages? (MD)
 - Need to create a dedicated repository for this. Within UCL-ARC?
+- Link to Library's copyright advice page? Or otherwise be more explicit.
 
 ### Endnotes
 
