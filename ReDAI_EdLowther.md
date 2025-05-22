@@ -63,5 +63,3 @@ Any other notes?
 9. Useful resources: [HuggingFace](https://huggingface.co/); [GitHub](https://github.com/). [↑](#endnote-ref-9)
 
 If you need help completing this form, please use MyServices to contact the Research Data Stewards team.
-
-![image](https://github.com/user-attachments/assets/1a69cb74-1540-4685-81fa-1e8c8346e1e1)
