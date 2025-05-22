@@ -1,44 +1,44 @@
 # ReDAI (Research Data for AI) - Information Capture Sheet
 
 ## About
-| Question    | Response |
+| Question | Response |
 | -------- | ------- |
 | Information provided by (project member): | Ed Lowther, PhD candidate |
 | Information collected by (ARC member): | Martin Donnelly |
 | Date of information collection: | 21 May 2025 |
 
 ## Project background
-| Question    | Response |
+| Question | Response |
 | -------- | ------- |
 | Project Title | PhD - a new method of time-series analysis for different types of data (multi-modal) |
 | Principal Investigator and any other key contacts (name, department, email address, etc) | Ed Lowther |
 | External funder(s) (if any)[[1]](#endnote-1) | |
-| Project partners | Moorfields Eye Hospital, UCL Opthalmology |
-| Short summary of research purpose | Anticipating likely clinical outcomes for glaucoma patients. Glaucoma is a degeneratibve condition. Not known why some patients deteriorate more quickly than others. |
+| Project partners | Moorfields Eye Hospital, UCL Ophthalmology |
+| Short summary of research purpose | Anticipating likely clinical outcomes for glaucoma patients. Glaucoma is a degenerative condition. Not known why some patients deteriorate more quickly than others. |
 | Will you be creating/capturing original data, or reusing existing data?[[4]](#endnote-4) | Reusing existing anonymised/depersonalised datasets |
 | Describe the AI component of the research[[2]](#endnote-2) | Training a machine-learning model, learning lots of parameters |
-| Does the research require High Performance Computing?[[3]](#endnote-3) | Not currently able to use ARC infrasructure. Data currently stored on UCL's computing science cluster. Potential to utilise ARC's TRE.|
+| Does the research require High Performance Computing?[[3]](#endnote-3) | Not currently able to use ARC infrastructure. Data currently stored on UCL's computing science cluster. Potential to utilise ARC's TRE.|
 
 ## About the data
 
 (N.B. If you are creating/using multiple datasets, just add another column to this table)
 
-| Question    | Dataset 1 |
+| Question | Dataset 1 |
 | -------- | ------- |
-| Short title of dataset  |  Alzeye. Ed may need to access BioBank dataset later, can exptent this table to record info around that as and when. For more info on this dataset see https://bmjopen.bmj.com/content/12/3/e058552 |
-| Describe the data collection (or access) process, e.g. for reusing third-party data. For example, will data sharing agreements be in place? |  Not an open dataset - data sharing agreements between NHS digital, Moorfields and UCl. Ed had to join the Alzeye team in order to access dataset. Honorary contract with Moorfields. |
+| Short title of dataset | Alzeye. Ed may need to access BioBank dataset later, can expand this table to record info around that as and when. For more info on this dataset see https://bmjopen.bmj.com/content/12/3/e058552 |
+| Describe the data collection (or access) process, e.g. for reusing third-party data. For example, will data sharing agreements be in place? | Not an open dataset - data sharing agreements between NHS digital, Moorfields and UCL. Ed had to join the Alzeye team in order to access dataset. Honorary contract with Moorfields. |
 | Will the data be sensitive (ethically, commercially or for security reasons)?[[5]](#endnote-5) [[6]](#endnote-6) | Anonymised, non-sensitive - but access is restricted. |
-| If yes, what protective measures will be put in place? (participant consent, anonymisation, encryption, access controls, etc) |  Access is controlled via SSH to HPC resource.  |
-| What data/file formats will be used?  |  Multiple data sets, inc. Image data. ECT scans of eyes. 3D arrays. 2D images. Tabular data/metadata, dates of appointment etc. |
-| What is the scale of data volume? (MB/GB/TB/PB) | Full dataset is 18 TB approx. Ed currently only interested in a subset of this, but interest may widen in time!  |
-| Does your data comprise large files (>4GB) or many small files, or a mixture? |  Image files can be gigabyte scale. Tabular data much smaller. Small number of lareg files, large number of small-to-medium files.   |
-| Where will the data be stored during the project? |  UCL Computing Science cluster. On premises.  |
-| How will it be protected/backed-up? | Backed up by in-house team.  |
-| Who will be responsible for data documentation/creating metadata? [[7]](#endnote-7) |  Metadata created by original research team (Alzeye)   |
+| If yes, what protective measures will be put in place? (participant consent, anonymisation, encryption, access controls, etc) | Access is controlled via SSH to HPC resource. |
+| What data/file formats will be used? | Multiple data sets, inc. Image data. ECT scans of eyes. 3D arrays. 2D images. Tabular data/metadata, dates of appointment etc. |
+| What is the scale of data volume? (MB/GB/TB/PB) | Full dataset is 18 TB approx. Ed currently only interested in a subset of this, but interest may broaden in time! |
+| Does your data comprise large files (>4GB) or many small files, or a mixture? | Image files can be gigabyte scale. Tabular data much smaller. Small number of large files, large number of small-to-medium files. |
+| Where will the data be stored during the project? | UCL Computing Science cluster. On premises. |
+| How will it be protected/backed-up? | Backed up by in-house team. |
+| Who will be responsible for data documentation/creating metadata? [[7]](#endnote-7) | Metadata created by original research team (Alzeye) |
 
 ## After the project
 
-| Question    | Response |
+| Question | Response |
 | -------- | ------- |
 | What data will you want to keep for the longer-term? (types, volumes, etc)[[8]](#endnote-8) | Not yet known! Results/evidence. |
 | Where will it be stored? | Where it already is. |
@@ -63,3 +63,5 @@ Any other notes?
 9. Useful resources: [HuggingFace](https://huggingface.co/); [GitHub](https://github.com/). [↑](#endnote-ref-9)
 
 If you need help completing this form, please use MyServices to contact the Research Data Stewards team.
+
+![image](https://github.com/user-attachments/assets/1a69cb74-1540-4685-81fa-1e8c8346e1e1)
