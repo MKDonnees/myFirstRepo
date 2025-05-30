@@ -32,9 +32,9 @@
 | Question | Input/training data | AI model | Output data |
 | -------- | ------- | -------- | ------- |
 | What data will you want to keep for the longer-term? (types, volumes, etc)[[8]](#endnote-8) | | |   |
-| Where will it be stored? | | |   |
+| Where will it be stored? [[9]](#endnote-9) | | |   |
 | How will longer-term storage be resourced? | | |   |
-| Do any additional materials (code etc) need to be kept in order to support longer-term reproducibility? Where will they be stored?[[9]](#endnote-9) | |
+| Do any additional materials (code etc) need to be kept in order to support longer-term reproducibility? Where will they be stored?[[10]](#endnote-10) | |
 
 ## About
 | Question    | Response |
@@ -55,6 +55,7 @@
 6. If ethically sensitive, consult the [UCL Research Ethics Service](https://www.ucl.ac.uk/research-innovation-services/compliance-and-assurance/research-ethics-service). If personal data will be processed, a Data Protection Impact Assessment (DPIA) is likely to be required. [↑](#endnote-ref-6)
 7. Useful resource: [ARC metadata model](https://liveuclac-my.sharepoint.com/personal/ccaemdo_ucl_ac_uk/Documents/UCL%20%282023-%29/Unified%20AI/ARC%20metadata%20model%20-%20https%3A/liveuclac.sharepoint.com/sites/RITSstaff/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=KDvi6V&CID=fcdeb7ee%2D1c19%2D425f%2Db45f%2Da2be2d43fa25&FolderCTID=0x01200008C0B7F85E2CFC4F92262A497FFA8D20&id=%2Fsites%2FRITSstaff%2FShared%20Documents%2FData%20Stewardship%2FARC%20Metadata%20Model) [↑](#endnote-ref-7)
 8. [UCL Library guidance](https://www.ucl.ac.uk/library/open-science-research-support/research-data-management/best-practices/how-guides/archiving) on identifying a suitable repository, determining what should be kept and what can be safely discarded, etc. [↑](#endnote-ref-8)
-9. Useful resources: [HuggingFace](https://huggingface.co/); [GitHub](https://github.com/). [↑](#endnote-ref-9)
+9. Link to UCL guidance on recommended long-term storage (to follow)
+10. Useful resources: [HuggingFace](https://huggingface.co/); [GitHub](https://github.com/). [↑](#endnote-ref-9)
 
 If you need help completing this form, please use MyServices to contact the Research Data Stewards team.
