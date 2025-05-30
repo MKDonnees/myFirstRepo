@@ -5,20 +5,20 @@
 | -------- | ------- |
 | Project Title | |
 | Principal Investigator and any other key contacts (name, department, email address, etc) | |
-| External funder(s) (if any)[[1]](#endnote-1) | |
+| External funder(s) (if any) [[1]](#endnote-1) | |
 | Project partners | |
 | Short summary of research purpose | |
+| Describe the AI component of the research [[2]](#endnote-2) | |
 | Describe the data collection (or access) process. Will you be creating/capturing original data, or reusing existing data? [[4]](#endnote-4) | |
-|If reusing third-party data, will (e.g.) data access or sharing agreements be in place? | |
-| Describe the AI component of the research[[2]](#endnote-2) | |
-| Does the research require any specific forms of High Performance Computing?[[3]](#endnote-3) | |
+| If reusing third-party data, will (e.g.) data access or sharing agreements be in place? | |
+| Does the research require any specific forms of High Performance Computing? [[3]](#endnote-3) | |
 
 ## About the data
 
 | Question | Input/training data | AI model | Output data |
 | -------- | ------- | -------- | ------- |
 | Short description of what it is  |     |    |     |
-| Will the data be sensitive (ethically, commercially or for security reasons)?[[5]](#endnote-5) [[6]](#endnote-6) |     |  |     |
+| Will the data be sensitive (ethically, commercially or for security reasons)? [[5]](#endnote-5) [[6]](#endnote-6) |     |  |     |
 | If yes, what protective measures will be put in place? (participant consent, anonymisation, encryption, access controls, etc) |     |
 | What data/file formats will be used?  |     |    |     |
 | What is the scale of data volume? (MB/GB/TB/PB) |     |   |     |
@@ -31,13 +31,13 @@
 
 | Question | Input/training data | AI model | Output data |
 | -------- | ------- | -------- | ------- |
-| What data will you want to keep for the longer-term? (types, volumes, etc)[[8]](#endnote-8) | | |   |
+| What data will you want to keep for the longer-term? (types, volumes, etc) [[8]](#endnote-8) | | |   |
 | Where will it be stored? [[9]](#endnote-9) | | |   |
 | How will longer-term storage be resourced? | | |   |
-| Do any additional materials (code etc) need to be kept in order to support longer-term reproducibility? Where will they be stored?[[10]](#endnote-10) | |
+| Do any additional materials (code etc) need to be kept in order to support longer-term reproducibility? Where will they be stored? [[10]](#endnote-10) | |
 
 ## About
-| Question    | Response |
+| Question | Response |
 | -------- | ------- |
 | Information provided by (project member): | |
 | Any other comments from interviewee? | |
@@ -46,7 +46,6 @@
 | Date of information collection: | |
 
 ### Endnotes
-
 1. Does the external funder have a research data policy, or is a data access agreement or plan in place/required? If a data management plan is required, create one using [DMPonline](https://dmponline.dcc.ac.uk/). [↑](#endnote-ref-1)
 2. You should consider issues around Effectiveness, Fairness and Transparency here. See the ReDAI (Research Data for AI) service page and the Unified AI documentation – links to follow. [↑](#endnote-ref-2)
 3. If HPC = Yes, see <https://github.com/ucl-arc/condenser-users> [↑](#endnote-ref-3)
@@ -58,4 +57,4 @@
 9. Link to UCL guidance on recommended long-term storage (to follow)
 10. Useful resources: [HuggingFace](https://huggingface.co/); [GitHub](https://github.com/). [↑](#endnote-ref-9)
 
-If you need help completing this form, please use MyServices to contact the Research Data Stewards team.
+If you need help completing this form, please use MyServices (link) to contact the Research Data Stewards team.
