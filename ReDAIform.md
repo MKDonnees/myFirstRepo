@@ -1,12 +1,5 @@
 # ReDAI (Research Data for AI) - Information Capture Sheet
 
-## About
-| Question    | Response |
-| -------- | ------- |
-| Information provided by (project member): | |
-| Information collected by (ARC member): | |
-| Date of information collection: | |
-
 ## Project background
 | Question    | Response |
 | -------- | ------- |
@@ -15,35 +8,42 @@
 | External funder(s) (if any)[[1]](#endnote-1) | |
 | Project partners | |
 | Short summary of research purpose | |
-| Will you be creating/capturing original data, or reusing existing data?[[4]](#endnote-4) | |
+| Describe the data collection (or access) process. Will you be creating/capturing original data, or reusing existing data? [[4]](#endnote-4) | |
+|If reusing third-party data, will (e.g.) data access or sharing agreements be in place? | |
 | Describe the AI component of the research[[2]](#endnote-2) | |
-| Does the research require High Performance Computing?[[3]](#endnote-3) | |
+| Does the research require any specific forms of High Performance Computing?[[3]](#endnote-3) | |
 
 ## About the data
 
-(N.B. If you are creating/using multiple datasets, just add another column to this table)
-
-| Question    | Dataset 1 |
-| -------- | ------- |
-| Short title of dataset  |     |
-| Describe the data collection (or access) process, e.g. for reusing third-party data. For example, will data sharing agreements be in place? |     |
-| Will the data be sensitive (ethically, commercially or for security reasons)?[[5]](#endnote-5) [[6]](#endnote-6) |     |
+| Question | Input/training data | AI model | Output data |
+| -------- | ------- | -------- | ------- |
+| Short description of what it is  |     |    |     |
+| Will the data be sensitive (ethically, commercially or for security reasons)?[[5]](#endnote-5) [[6]](#endnote-6) |     |  |     |
 | If yes, what protective measures will be put in place? (participant consent, anonymisation, encryption, access controls, etc) |     |
-| What data/file formats will be used?  |     |
-| What is the scale of data volume? (MB/GB/TB/PB) |     |
-| Does your data comprise large files (>4GB) or many small files, or a mixture? |     |
-| Where will the data be stored during the project? |     |
-| How will it be protected/backed-up? |     |
-| Who will be responsible for data documentation/creating metadata? [[7]](#endnote-7) |     |
+| What data/file formats will be used?  |     |    |     |
+| What is the scale of data volume? (MB/GB/TB/PB) |     |   |     |
+| Does your data comprise large files (>4GB) or many small files, or a mixture? |     |    |     |
+| Where will the data be stored during the project? |     |    |     |
+| How will it be protected/backed-up? |     |    |     |
+| Who will be responsible for data documentation/creating metadata? [[7]](#endnote-7) |     |    |     |
 
 ## After the project
 
+| Question | Input/training data | AI model | Output data |
+| -------- | ------- | -------- | ------- |
+| What data will you want to keep for the longer-term? (types, volumes, etc)[[8]](#endnote-8) | | |   |
+| Where will it be stored? | | |   |
+| How will longer-term storage be resourced? | | |   |
+| Do any additional materials (code etc) need to be kept in order to support longer-term reproducibility? Where will they be stored?[[9]](#endnote-9) | |
+
+## About
 | Question    | Response |
 | -------- | ------- |
-| What data will you want to keep for the longer-term? (types, volumes, etc)[[8]](#endnote-8) | |
-| Where will it be stored? | |
-| How will longer-term storage be resourced? | |
-| What additional materials (code, models, etc) must be kept in order to support longer-term reproducibility? Where will they be stored?[[9]](#endnote-9) | |
+| Information provided by (project member): | |
+| Any other comments from interviewee? | |
+| Information collected by (ARC member): | |
+| Any other comments from interviewer? | |
+| Date of information collection: | |
 
 ### Endnotes
 
