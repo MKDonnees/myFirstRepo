@@ -11,21 +11,21 @@
 | Describe the AI component of the research [[2]](#endnote-2) | Using paired (i.e. same patient in same scanner) and deidentified clinical and fast MRI scans to train a supervised model to predict clinical scans from fast scans. Fast scans can be performed at 63% the time of a clinical quality scan. Motivating factors: save time, more patients can be treated, increases accessibility, individuals spend less time in the scanner. Elderly people may struggle with MRI as it's a loud and enclosed environment. |
 | Describe the data collection (or access) process. Will you be creating/capturing original data, or reusing existing data? [[3]](#endnote-3) | |
 | If reusing third-party data, will (e.g.) data access or sharing agreements be in place? Is copyright an issue? [[4]](#endnote-4) | Reusing ADMIRA data - no separate DSA or consent required, as analysis/training is done on deidentified images |
-| Does the research require any specific forms of High Performance Computing? [[5]](#endnote-5) | Some of the analysis on HC's laptop, some on a desktop PC under HC's office desk at work (which houses a GPU, which means to queueing), and some on UCL Computing Science HPC. May use ARC's Myriad system in the future. |
+| Does the research require any specific forms of High Performance Computing? [[5]](#endnote-5) | Some of the analysis carried out on HC's laptop, some on a desktop PC under HC's office desk at work (which houses a GPU, which means to queueing), and some on UCL Computing Science HPC. May use ARC's Myriad system in the future. |
 
-## About the data
+## About the data and models
 
 | Question | Input/training data | AI model | Output data |
 | -------- | ------- | -------- | ------- |
-| Short description of what it is  |     |    |     |
-| Will the data be sensitive (ethically, commercially or for security reasons)? [[6]](#endnote-6) [[7]](#endnote-7) |     |  |     |
-| If yes, what protective measures will be put in place? (participant consent, anonymisation, encryption, access controls, etc) |     |
-| What data/file formats will be used?  |     |    |     |
-| What is the scale of data volume? (MB/GB/TB/PB) |     |   |     |
-| Does your data comprise large files (>4GB) or many small files, or a mixture? |     |    |     |
-| Where will the data be stored during the project? |     |    |     |
-| How will it be protected/backed-up? |     |    |     |
-| Who will be responsible for data documentation/creating metadata? [[8]](#endnote-8) |     |    |     |
+| Short description of what it is  | Deidentified fast and clinical MRI scans |  Pytorch based model - convolutional neural network (CNN)  |     |
+| Will the data be sensitive (ethically, commercially or for security reasons)? [[6]](#endnote-6) [[7]](#endnote-7) |  No as scans are deidentified   | No |     |
+| If yes, what protective measures will be put in place? (participant consent, anonymisation, encryption, access controls, etc) | N/A  | N/A 
+| What data/file formats will be used?  | DICOM    |  Pytorch, Onnx  |     |
+| What is the scale of data volume? (MB/GB/TB/PB) |  100s of GB  |  GB scale |     |
+| Does your data comprise large files (>4GB) or many small files, or a mixture? |  Many small files (100s per scan, approx 200 scans) - maybe 40,000   |  Single large file probably  |     |
+| Where will the data be stored during the project? | XNAT. Dowloaded to ARC's RDSS and mounted onto compute to perform analysis | RDSS   |     |
+| How will it be protected/backed-up? | Role-based project access, backed up by CS according to their policy |  RDSS bacckup regimne  |     |
+| Who will be responsible for data documentation/creating metadata? [[8]](#endnote-8) | Haroon himself - split role as PhD student and ARC staff |    |     |
 
 ## After the project
 
@@ -44,6 +44,11 @@
 | Information collected by (ARC member): | |
 | Any other comments from interviewer? | |
 | Date of information collection: | |
+
+**NOTES FOR FORM REVISION:
+**Does the research require any specific forms of High Performance Computing? - this question is ambiguous, perhaps reword to "specific compute resources"? "What compute resources are used/required/expected?" something like that
+Chaneg about the data to avout data and m,odels 
+Second section is too data-centric - revise language to be more open 
 
 ### Endnotes
 1. Does the external funder have a research data policy, or is a data access agreement or plan in place/required? If a data management plan is required, create one using [DMPonline](https://dmponline.dcc.ac.uk/). [↑](#endnote-ref-1)
