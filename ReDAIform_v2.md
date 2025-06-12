@@ -3,15 +3,15 @@
 ## Project background
 | Question    | Response |
 | -------- | ------- |
-| Project Title | |
-| Principal Investigator and any other key contacts (name, department, email address, etc) | |
-| External funder(s) (if any) [[1]](#endnote-1) | |
-| Project partners | |
-| Short summary of research purpose | |
-| Describe the AI component of the research [[2]](#endnote-2) | |
+| Project Title | Haroon's PhD - Machine learning approaches for accelerated dementia MRI |
+| Principal Investigator and any other key contacts (name, department, email address, etc) | Haroon Chughtai |
+| External funder(s) (if any) [[1]](#endnote-1) | ADMIRA is funded by UCLH and Alzheimers Society |
+| Project partners | Geoff Parker and Danny Alexander are supervisors. Data provider is National Hospital for Neurology and Neurosurgery (NHNN), which is part of UCL - project which is capturing data is called ADMIRA (Accelerated MRI for Alzheimer's Disease). ADMIRA PI is Geoff Parker. |
+| Short summary of research purpose | See title for the moment |
+| Describe the AI component of the research [[2]](#endnote-2) | Using paired (i.e. same patient in same scanner) and deidentified clinical and fast MRI scans to train a supervised model to predict clinical scans from fast scans. Fast scans can be performed at 63% the time of a clinical quality scan. Motivating factors: save time, more patients can be treated, increases accessibility, individuals spend less time in the scanner. Elderly people may struggle with MRI as it's a loud and enclosed environment. |
 | Describe the data collection (or access) process. Will you be creating/capturing original data, or reusing existing data? [[3]](#endnote-3) | |
-| If reusing third-party data, will (e.g.) data access or sharing agreements be in place? Is copyright an issue? [[4]](#endnote-4) | |
-| Does the research require any specific forms of High Performance Computing? [[5]](#endnote-5) | |
+| If reusing third-party data, will (e.g.) data access or sharing agreements be in place? Is copyright an issue? [[4]](#endnote-4) | Reusing ADMIRA data - no separate DSA or consent required, as analysis/training is done on deidentified images |
+| Does the research require any specific forms of High Performance Computing? [[5]](#endnote-5) | Some of the analysis on HC's laptop, some on a desktop PC under HC's office desk at work (which houses a GPU, which means to queueing), and some on UCL Computing Science HPC. May use ARC's Myriad system in the future. |
 
 ## About the data
 
