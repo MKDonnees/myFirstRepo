@@ -21,7 +21,7 @@
 | Will the data/model be sensitive (ethically, commercially or for security reasons)? [[6]](#endnote-6) [[7]](#endnote-7) |    |  |  |
 | If yes, what protective measures will be put in place? (participant consent, anonymisation, encryption, access controls, etc) |  |  |  |  
 | What file formats will be used?  |   |    |  |
-| What is the scale of data/model volume? (MB/GB/TB/PB) |    |  Few GB |     |
+| What is the scale of data/model volume? (MB/GB/TB/PB) |    |   |     |
 | Does your data/model comprise large files (>4GB) or many small files, or a mixture? |   |   |   |
 | Where will the data/model be stored during the project? |  |  |     |
 | How will it be protected/backed-up? |  |    |    |
