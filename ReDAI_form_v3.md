@@ -11,7 +11,7 @@
 | Describe the AI component of the research [[2]](#endnote-2) |  |
 | Describe the data collection (or access) process. Will you be creating/capturing original data, or reusing existing data? [[3]](#endnote-3) | |
 | If reusing third-party data, will (e.g.) data access or sharing agreements be in place? Is copyright an issue? [[4]](#endnote-4) | |
-| Does the research require any specific forms of compute resource? [[5]](#endnote-5) | S |
+| Does the research require any specific forms of compute resource? [[5]](#endnote-5) | |
 
 ## About the data and models
 
@@ -58,4 +58,4 @@
 10. Link to UCL guidance on recommended long-term storage (to follow) [↑](#endnote-ref-10)
 11. Useful resources: [HuggingFace](https://huggingface.co/); [GitHub](https://github.com/). [↑](#endnote-ref-11)
 
-If you need help completing this form, please use MyServices (link) to contact the Research Data Stewards team.
+If you need help completing this form, please use MyServices to contact the Research Data Stewards team.
